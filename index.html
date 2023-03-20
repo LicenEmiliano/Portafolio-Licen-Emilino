@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo Web Front-End</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="style.css" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+                </a>
+                <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certificados">Certificados</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-desarrollador rounded-circle" src="./imagenes/Emi.jpg" alt="Foto de Licen Emiliano">
+            <h1>Hola, soy Emiliano Licen</h1>
+            <h2>Professional Front End Developer</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="imagenes/hero-inferior.svg"
+                alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+        </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi p-1 text-center seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo">Mis objetivos</h2>
+            <p class="seccion-texto">Desarrollar mis capacidades en empresas de prestigio para adquirir nuevas
+                experiencias y conocimientos para así asegurarme un crecimiento personal y económico.</p>
+        </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Desarrollo Web -->
+                <div class="columna col-12 col-md-6">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Professional Frontend Developers</p>
+                    <p class="m-0">Los Professional Frontend Developers son los encargados de maquetar la estructura
+                        semántica del
+                        contenido (HTML), codificar el diseño en hojas de estilo (CSS) y agregar la interacción con el
+                        usuario (Javascript).</p>
+                    <p class="m-0">Con HTML5, desde el frontend, es posible hacer geolocalización, dibujo vectorial,
+                        guardar datos
+                        en el disco del usuario e insertar audio y video, entre otras cosas.</p>
+                    <p class="m-0">Con CSS3, podemos crear diseños altamente complejos sin la necesidad de imágenes
+                        cortadas sólo
+                        usando código, bordes redondeados, sombras, degradados, fondos múltiples, entre otros.</p>
+                    <p class="m-0">Con Javascript añade el componente de interactividad y conexión al servidor</p>
+                    <p class="m-0">Bootstrap es un marco de trabajo muy utilizado hoy en día en el mundo del desarrollo.
+                        Nos ayuda a
+                        programar el diseño de nuestro sitio o programa y nos da la posibilidad de que sea funcional y
+                        adaptable.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">HTML</span>
+                        <span class="badge text-bg-primary">CSS</span>
+                        <span class="badge text-bg-primary">JavaScript</span>
+                        <span class="badge text-bg-primary">Bootstrap</span>
+                    </div>
+                </div>
+                <!-- Estudiante -->
+                <div class="columna col-12 col-md-6">
+                    <i class="bi bi-laptop"></i>
+                    <p class="experiencia-titulo">Estudiante</p>
+                    <div> <a class="navbar-brand" href="https://sceu.frba.utn.edu.ar/e-learning">
+                            <img src="./imagenes/facu.jpg" width="300" alt="facu Logo de la página web">
+                        </a>
+                    </div>
+                    <p class="m-3">La Universidad Tecnológica Nacional (UTN) es una universidad pública nacional de
+                        Argentina, como
+                        una continuación de la Universidad Obrera Nacional. Es la única universidad del país con una
+                        organización federal y cuya estructura académica tiene a las ingenierías como objetivo
+                        prioritario.
+                        Su sede central administrativa se encuentra en la ciudad de Buenos Aires pero cuenta con 30
+                        Facultades Regionales, un Instituto Nacional Superior del Profesorado Técnico y extensiones
+                        áulicas distribuidas geográficamente en todo el territorio de la República Argentina.
+                        Por su cantidad de alumnos, es la mayor universidad de ingeniería del país. </p>
+                    <div class="badges-contenedor">
+                        <p>Para validar la autenticidad de los certificado ingrese a:</p>
+                        <a class="text-decoration-none badge text-bg-primary"
+                            href="https://sigead.utnba.centrodeelearning.com/alumnos/validar_certificado">Validacion
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Códigos de validacion  -->
+    <section>
+        <h2 class="seccion-titulo texto-negro text-center"> Códigos de Validacion</h2>
+        <div class="card">
+            <div class="card-header text-center text-bg-primary">
+                <h5>Frontend Developer</h5>
+            </div>
+            <ul class="list-group list-group-flush">
+
+                <li class="list-group-item">
+                    Certificado Desarrollo HTML 5 y CSS3 CER-YPLRVR8C-749499
+                </li>
+
+                <li class="list-group-item">
+                    Certificado Desarrollo JavaScript CER-37119HZZ-774223
+                </li>
+
+                <li class="list-group-item">
+                    Certificado Desarrollo HTML 5, CSS3 y Javascript CER-184IMQ36-847615
+                </li>
+
+
+                <li class="list-group-item">
+                    Certificado Desarrollo web en Bootstrap
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- certificados -->
+    <section id="certificados">
+        <h2 class="seccion-titulo">Certificado</h2>
+
+        <!-- Carrusel -->
+        <div id="Certificados-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="container">
+                        <img class="d-block w-100 " src="./imagenes/html y css.jpg" alt="Certificado Html Css">
+                        <div class="text-center">
+                            <p class="m-1">Certificado HTML 5 y CSS3</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="d-block w-100 " src="./imagenes/javascript.jpg" alt="Certificado JavaScrip">
+                        <div class="text-center">
+                            <p class="m-1">Certificado JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="container">
+                        <img class="d-block w-100" src="./imagenes/HTML 5, CSS3 y Javascript.jpg"
+                            alt="Certificado HTML 5, CSS3 y Javascript">
+                        <div class="text-center">
+                            <p class="m-1">Certificado HTML 5, CSS3 y Javascript</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#Certificados-carrusel"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#Certificados-carrusel"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Mis proyectos recientes</h2>
+        <h3 class="seccion-descripcion">Estos son algunos proyectos que he creado recientemente...</h3>
+        <!-- Galeria de Proyectos -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!-- Proyecto 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 1</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/LicenEmiliano/el-garage-food" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/proyecto2.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 2</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://github.com/LicenEmiliano/Trabajo_final" target="_blank"
+                                    rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="https://trabajoutnhtmlcssjavascript.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/proyecto3.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 3</p>
+                            <div class="iconos-contenedor">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/proyecto4.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 4</p>
+                            <div class="iconos-contenedor">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="imagenes/proyecto5.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 5</p>
+                            <div class="iconos-contenedor">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Proyecto 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="./imagenes/proyecto6.png" alt="Proyecto 1">
+                        <div class="overlay">
+                            <p>Proyecto 6</p>
+                            <div class="iconos-contenedor">
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-github"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-laptop"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Contáctame para iniciar tu proyecto de desarrollo web y haré que tu visión se vuelva realidad.
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="mailto:emilianolicen@hotmail.com">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-envelope-check-fill"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <p class="footer-texto text-center">Creemos un proyecto juntos.</p>
+        <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+
+            <a href="https://github.com/LicenEmiliano" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+            </a>
+
+            <a href="https://wa.me/+5491136335696?text=Hola20%Quiero20%Contratarte" target="_blank"
+                rel="noopener noreferrer">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="mailto:emilianolicen@hotmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+            </a>
+
+        </div>
+        <div class="derechos-de-autor">Creado por Emiliano Licen 2023 © </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
