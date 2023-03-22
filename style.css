@@ -139,6 +139,9 @@ h1 {
 .badge {
   margin: 5px;
 }
+.boton-ver:hover {
+  transform: scale(1.2);
+}
 
 /* Proyectos */
 
