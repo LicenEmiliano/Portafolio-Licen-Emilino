@@ -9,28 +9,28 @@
   align-items: center;
   justify-content: space-between;
 }
-#color1{
-  --clr:#1e9bff;
+#color1 {
+  --clr: #1e9bff;
   padding: 8px 31px;
 }
-#color2{
-  --clr:#6eff3e;
+#color2 {
+  --clr: #6eff3e;
   padding: 8px 27px;
 }
-#color3{
-  --clr:#ff1818;
+#color3 {
+  --clr: #ff1818;
   padding: 8px 20px;
 }
-#color4{
-  --clr:#ff7418;
+#color4 {
+  --clr: #ff7418;
   padding: 8px 29px;
 }
 .efectos {
   position: relative;
   background: #444;
-  color: #fff;  
+  color: #fff;
   transition: 0.5s;
-  font-size: 1.1em; 
+  font-size: 1.1em;
 }
 .efectos:hover {
   letter-spacing: 0.1em;
