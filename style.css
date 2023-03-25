@@ -127,6 +127,10 @@ h1 {
 .texto-blanco {
   color: white;
 }
+.btn-primary {
+  font-size: 1.1rem;
+  margin: 40px;
+}
 
 /* Seccion Hero */
 
